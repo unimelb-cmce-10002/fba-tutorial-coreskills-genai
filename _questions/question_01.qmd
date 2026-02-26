@@ -1,12 +1,23 @@
 <!-- question-type: prepare -->
-### Exercise 1: Title
+### Exercise 1: Identifying the key concepts
 
-This is the text for the question, with its accompanying code 
+Watch this short news story:
+"[Uber drivers creating artificial surge prices](https://www.abc.net.au/news/2025-07-29/uber-drivers-creating-artificial-surge-prices/105582350)" (ABC News, 29 July 2025).
 
-```{r}
-# Example code for the question
-1 + 1
-```
+In your own words, define the following key terms or ideas mentioned in the article:
+
+- Surge pricing
+- Algorithmic pricing
+- Platform manipulation
+- Driver incentives
+
+
+::: {.callout-tip}
+You don’t need to provide formal or technical definitions. Focus on explaining each concept in your own words, based on how it was used in the video.
+:::
+
+
+
 
 <!-- BEGIN PROFILE:r-teaching-guide -->
 ::: {.content-visible when-profile="r-teaching-guide"}
@@ -22,20 +33,31 @@ Teaching Note
 🎯 **Learning Objective** 
 Students should:
 
-- XXXXX
 
-✅   **Core Concepts to Highlight**
+- Understand how platform pricing mechanisms like surge pricing work in theory and in practice
+- Identify how user behavior and incentives can create unintended consequences in algorithmic systems
 
-List them here
+✅  **Core Concepts to Highlight**
+
+See solution.
 
 
 💬 **Suggested In-Class Prompts** (if needed)
 
-List as needed
+“How is surge pricing supposed to work, and what problem is it trying to solve?”
+
+“What does ‘platform manipulation’ mean in this context—and why is it tricky to define?”
+
+“What’s the difference between an incentive and a manipulation? Where’s the line?”
+
+“In your own words, how would you explain algorithmic pricing to someone unfamiliar with Uber?”
 
 📌 **Common Misunderstandings**
 
-List as needed
+- Confusing surge pricing with price gouging (important to clarify dynamic pricing vs. illegal/unethical behavior)
+- Thinking algorithmic pricing means prices are random or purely based on time/location, rather than live supply and demand
+- Assuming platform manipulation always requires hacking or illegal activity, rather than strategic exploitation of platform rules
+- Believing incentives are just bonuses, not tools for shaping behavior and aligning platform goals with user decisions
 
 :::
 
@@ -54,12 +76,17 @@ Solution
 :::
 
 ::: {.solution-block-body}
+**Surge Pricing**
+A dynamic pricing system used by Uber to increase fares when demand from riders exceeds the number of available drivers in an area. It’s designed to encourage more drivers to come online during peak times by offering higher earnings.
 
-Here’s the explanation and code:
+**Algorithmic Pricing**
+The automated process by which Uber’s system adjusts fares based on real-time data like supply, demand, traffic, and location. Prices are determined not by a person but by algorithms using live inputs.
 
-```{r}
-print("Hello, world!")
-```
+**Platform Manipulation**
+When users—drivers in this case—intentionally alter their behavior to exploit the rules or algorithms of a digital platform to their advantage. In the video, this involves drivers coordinating to log off in order to trigger artificial price surges.
+
+**Driver Incentives**
+The rewards or earning opportunities Uber offers to encourage certain behaviors—like staying online during busy times, completing a certain number of rides, or accepting trips in high-demand areas. These incentives shape driver decisions and are central to how the platform functions.
 :::
 
 :::

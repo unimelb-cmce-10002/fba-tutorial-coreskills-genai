@@ -1,12 +1,11 @@
 <!-- question-type: inclass -->
-### Exercise 1: Title
+### Exercise 6: Next Steps
 
-This is the text for the question, with its accompanying code 
+Using your work from Exercise 5, answer these two questions:
 
-```{r}
-# Example code for the question
-1 + 1
-```
+* What is the first pattern you would look for in the data to investigate your question? 
+
+* What are two outcome indicators you would track to answer your research question? For each, add a short reason.
 
 <!-- BEGIN PROFILE:r-teaching-guide -->
 ::: {.content-visible when-profile="r-teaching-guide"}
@@ -22,20 +21,46 @@ Teaching Note
 🎯 **Learning Objective** 
 Students should:
 
-- XXXXX
+Convert their data plan (signals + confounds) into a first, concrete pattern to look for in the data.
+
+Identify two outcome indicators that directly match their research question and justify why those indicators matter.
+
+Practice moving from “we need data” to “what would we actually look at first?”
 
 ✅   **Core Concepts to Highlight**
 
-List them here
+“First pattern” = first diagnostic check: a simple, observable relationship that would increase/decrease belief in the story (not a full model).
+
+Pattern ≠ proof: it’s an initial screen that motivates deeper checks and comparison groups.
+
+Outcome indicators should match the question: pick indicators that reflect the outcome in the research question (or a close proxy).
+
+Two outcomes = triangulation: one can be a pricing/outcome metric (e.g., surge intensity), the other can capture user experience or market health (e.g., wait time, cancellations).
+
+Operational clarity: patterns should refer to time and place (when/where) and be stated in measurable terms (e.g., “sharp drop in online drivers within zone X followed by surge spike within 10 minutes”).
 
 
 💬 **Suggested In-Class Prompts** (if needed)
 
-List as needed
+“If you opened the dataset right now, what would you plot first?”
+
+“What would you compare against—what’s the baseline?”
+
+“What outcome is at the centre of your research question?”
 
 📌 **Common Misunderstandings**
 
-List as needed
+Writing a vague first pattern (“look for evidence of coordination”) instead of an observable pattern (who/where/when/what changes).
+
+Jumping to complex methods rather than starting with a simple comparison or plot.
+
+Choosing outcomes that don’t match the research question (tracking “trust” with no proxy, or picking metrics unrelated to surge).
+
+Listing “data fields” instead of “outcome indicators” (e.g., “timestamps” is not an outcome).
+
+Picking two highly similar outcomes that don’t add information (e.g., two versions of surge) without a reason.
+
+Forgetting that outcomes should be interpretable to a decision-maker (metrics need a clear business meaning).
 
 :::
 
@@ -55,11 +80,8 @@ Solution
 
 ::: {.solution-block-body}
 
-Here’s the explanation and code:
+No solution provided. Depends on what the group's direction chosen in previous exercise.
 
-```{r}
-print("Hello, world!")
-```
 :::
 
 :::

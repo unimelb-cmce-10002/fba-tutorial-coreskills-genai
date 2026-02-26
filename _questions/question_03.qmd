@@ -1,12 +1,20 @@
 <!-- question-type: prepare -->
-### Exercise 3: Title
+### Exercise 3: Proposing a way forward
 
-This is the text for the question, with its accompanying code 
+Your manager turns to you and says:
 
-```{r}
-# Example code for the question
-1 + 1
-```
+> “Where should we start?”
+
+**Part A**: Write **5 bullet points** describing your approach. You must include:
+
+- **one** bullet on what context/institutional detail you’d want to understand,
+- **one** bullet on what data you’d want to find or request,
+- **one** bullet on what analysis or method you’d try first,
+- **one** bullet on what could go wrong / what might mislead you,
+- **one** bullet on how you’d communicate results to a decision-maker.
+
+
+**Part B**: Which TWO of the 8 Business Scientist skills will matter most here, and why?
 
 <!-- BEGIN PROFILE:r-teaching-guide -->
 ::: {.content-visible when-profile="r-teaching-guide"}
@@ -22,21 +30,53 @@ Teaching Note
 🎯 **Learning Objective** 
 Students should:
 
-- XXXXX
+Outline a realistic “first week on the job” investigation plan that connects institutional detail → data → first analysis → risks → communication.
+
+Practice thinking like a business scientist by anticipating what could mislead them before drawing conclusions.
+
+Identify which two of the 8 Business Scientist skills are most critical for this problem and explain why
 
 ✅   **Core Concepts to Highlight**
 
-List them here
+Institutional detail drives measurement: you can’t analyze “surge manipulation” until you know how surge is computed (zones, refresh rate, inputs).
 
+Data discovery as feasibility: good questions fail if you can’t get the right logs at the right granularity.
+
+First analysis = a simple comparison: start with a clear “pattern to look for” (supply drop → surge spike) rather than complex models.
+
+Analytical theory (what can go wrong): confounds (events/weather), outages, normal shifts, location mismeasurement, selection.
+
+Communication is part of analysis: decision-makers need a concise story + one or two key exhibits + clear uncertainty/limits.
+
+Link to the 8 skills: show how this task naturally activates multiple skills, but some matter more at the start.
 
 💬 **Suggested In-Class Prompts** (if needed)
 
-List as needed
+Institutional detail drives measurement: you can’t analyze “surge manipulation” until you know how surge is computed (zones, refresh rate, inputs).
+
+Data discovery as feasibility: good questions fail if you can’t get the right logs at the right granularity.
+
+First analysis = a simple comparison: start with a clear “pattern to look for” (supply drop → surge spike) rather than complex models.
+
+Analytical theory (what can go wrong): confounds (events/weather), outages, normal shifts, location mismeasurement, selection.
+
+Communication is part of analysis: decision-makers need a concise story + one or two key exhibits + clear uncertainty/limits.
+
+Link to the 8 skills: show how this task naturally activates multiple skills, but some matter more at the start.
 
 📌 **Common Misunderstandings**
 
-List as needed
+Institutional detail drives measurement: you can’t analyze “surge manipulation” until you know how surge is computed (zones, refresh rate, inputs).
 
+Data discovery as feasibility: good questions fail if you can’t get the right logs at the right granularity.
+
+First analysis = a simple comparison: start with a clear “pattern to look for” (supply drop → surge spike) rather than complex models.
+
+Analytical theory (what can go wrong): confounds (events/weather), outages, normal shifts, location mismeasurement, selection.
+
+Communication is part of analysis: decision-makers need a concise story + one or two key exhibits + clear uncertainty/limits.
+
+Link to the 8 skills: show how this task naturally activates multiple skills, but some matter more at the start.
 :::
 
 :::
@@ -55,11 +95,27 @@ Solution
 
 ::: {.solution-block-body}
 
-Here’s the explanation and code:
+Example solution -- there's many ways to approach this
 
-```{r}
-print("Hello, world!")
-```
+
+**Part A**
+
+Institutional detail: Clarify how surge pricing works in practice in Sydney/Melbourne (e.g., how “surge zones” are defined, how often prices update, and what driver actions affect the algorithm).
+
+Data to request: Pull time-stamped logs on driver online/offline status by location, surge multipliers by zone, trip requests, wait times/ETAs, cancellations, and basic context (weather, major events).
+
+First analysis: Look for “coordination events” — unusually sharp drops in active drivers within a small area over a short time window — and check whether these are followed by spikes in surge pricing compared with similar times/areas.
+
+What could go wrong: Demand spikes (events, rain), app outages, traffic disruptions, or normal shift changes could create similar patterns, so we could falsely label normal market changes as manipulation.
+
+How to communicate: Summarize findings in a short manager memo with one simple chart (surge vs driver supply over time), a clear estimate of how often these patterns occur, and a “confidence/limits” section explaining what we can and cannot conclude yet.
+
+**Part B**
+
+Data Discovery: Without the right logs (especially precise online/offline timing and location-level surge history), we can’t distinguish coordination from normal fluctuations.
+
+Analytical Theory: This situation is full of ways to get fooled (confounds like weather/events, measurement limits, false positives), so we need to be explicit about what could go wrong and how we’d check robustness before recommending action.
+
 :::
 
 :::

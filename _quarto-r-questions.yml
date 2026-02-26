@@ -1,7 +1,7 @@
 project:
   render:
     - tutorial.qmd
-title: 'Questions document: R version'
+title: 'Tutorial 1: Core Skills of a Business Scientist in the GenAI Era'
 execute:
   eval: false
 format:

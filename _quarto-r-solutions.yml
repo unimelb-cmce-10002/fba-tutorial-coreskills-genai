@@ -1,7 +1,7 @@
 project:
   render:
     - tutorial.qmd
-title: 'Solutions document: R version'
+title: 'Tutorial 1 Solutions: Core Skills of a Business Scientist in the GenAI Era'
 format:
   html:
     output-file: "tutorial-r-solutions"

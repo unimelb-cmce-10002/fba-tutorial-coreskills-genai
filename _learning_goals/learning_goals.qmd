@@ -1,8 +1,11 @@
 ::: {.callout-tip}
 ## Learning Goals {.unnumbered}
 
-By the end of this tutorial, you should be able to:
+By the end of this workshop, you should be able to:
 
-- COMPLETE THIS
-- WITH MULTIPLE BULLETS
+- Define key concepts in the Uber surge-pricing case in clear, non-technical language.
+- Formulate a decision-relevant research question that is specific, measurable, and appropriately scoped.
+- Identify the data Uber would need to investigate suspected coordination and distinguish plausible signals from confounds.
+- Propose a first-pass detection idea and explain ways in which the analysis could go wrong .
+- Evaluate how different workflows with GenAIshape the quality and defensibility of your analysis and your ownership of the work.
 :::

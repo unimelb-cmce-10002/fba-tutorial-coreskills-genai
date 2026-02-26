@@ -1,12 +1,21 @@
 <!-- question-type: prepare -->
-### Exercise 5: Title
+### Exercise 5: What data do we need, and how could we be misled?
 
-This is the text for the question, with its accompanying code 
+Using the research question your group selected in Exercise 4, your manager asks:
 
-```{r}
-# Example code for the question
-1 + 1
-```
+> “What data would we need to answer your question?”
+
+As a group, complete the following.
+
+**Part A: Must-have data**
+List 5–7 data fields you would request or create to answer your question. For each item, add one sentence explaining what it would help you observe or measure.
+
+
+**Part B: What patterns would you expect to see?** 
+List three patterns you’d expect in the data if your hypothesis is correct.
+
+**Part C: What else could explain the same patterns?**
+List two alternative explanations that could produce similar patterns,
 
 <!-- BEGIN PROFILE:r-teaching-guide -->
 ::: {.content-visible when-profile="r-teaching-guide"}
@@ -22,21 +31,49 @@ Teaching Note
 🎯 **Learning Objective** 
 Students should:
 
-- XXXXX
+Translate a research question into a practical data request (what fields, at what granularity, and why).
+
+Distinguish between signals that would support their hypothesis and confounds that could mimic the same patterns.
+
+Practice “Analytical Theory” early by anticipating how they could be misled.
 
 ✅   **Core Concepts to Highlight**
 
-List them here
+Question → data mapping: good analytics starts with asking “what would I need to observe to answer this?”
 
+Granularity matters: time stamps and location detail often determine whether a question is answerable.
+
+Constructed variables: some “fields” are built (e.g., surge intensity by zone-minute; clustered log-off indicator).
+
+Signals vs confounds: signals are patterns consistent with your story; confounds are alternative stories producing similar patterns.
+
+Correlation isn’t proof: even strong-looking patterns need rival explanations considered.
+
+Minimal viable dataset: 5–7 fields forces prioritization rather than “give me everything.”
 
 💬 **Suggested In-Class Prompts** (if needed)
 
-List as needed
+“What time window and geography do you need to observe coordination?”
+
+“What would you need to compare against (a baseline) to make the pattern meaningful?”
+
+“Give me one pattern that would convince you a little—and one that would convince you a lot.”
+
+“What is the most plausible ‘innocent’ explanation for the same pattern?”
 
 📌 **Common Misunderstandings**
 
-List as needed
+Listing vague data (“driver data,” “pricing data”) instead of specific fields (timestamps, zone IDs, surge multipliers, online status).
 
+Ignoring the need for time + location detail (can’t detect coordination without it).
+
+Requesting too many fields or irrelevant fields, rather than the minimum needed to answer the question.
+
+Writing “patterns” that are really just restating the hypothesis (“we’d see manipulation”) instead of observable signals.
+
+Confusing confounds with minor caveats (“data might be messy”) rather than real alternative explanations (events, weather, outages, shift changes).
+
+Treating one signal as definitive without thinking about baselines and comparisons (“surge happened, therefore coordination”).
 :::
 
 :::
@@ -55,11 +92,9 @@ Solution
 
 ::: {.solution-block-body}
 
-Here’s the explanation and code:
+No solution provided. Depends on what the group's direction chosen in previous exercise.
 
-```{r}
-print("Hello, world!")
-```
+
 :::
 
 :::

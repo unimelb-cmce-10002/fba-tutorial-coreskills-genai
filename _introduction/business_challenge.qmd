@@ -1,3 +1,7 @@
 ## The Business Challenge
 
-Explain the Business Challenge and set up in this file
+Uber is facing a new challenge in cities like Sydney and Melbourne. Some drivers have found a way to game the surge pricing system by temporarily logging off in groups to reduce supply. This triggers a surge in prices—and when they log back in, they benefit from higher fares.
+
+While this behavior doesn’t technically break any rules, it raises serious concerns. Should Uber treat it as clever strategy or as manipulation? Should it intervene—and if so, how? Cracking down too hard could upset drivers and hurt morale. Doing nothing might damage rider trust and public perception.
+
+Uber’s analytics and operations teams need to investigate what’s really going on, what’s driving this behavior, and whether (and how) to respond in a way that balances fairness, incentives, and platform health.

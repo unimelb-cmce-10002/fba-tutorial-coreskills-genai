@@ -22,22 +22,37 @@ Prepare these exercises before coming to class. Plan to spend 30 minutes on thes
 
 {{< include _questions/question_03.qmd >}}
 
-{{< include _questions/question_04.qmd >}}
-
-{{< include _questions/question_05.qmd >}}
-
 <!-- BEGIN INSERT:inclass-header -->
 ## In-Class Exercises
 
 You will discuss these exercises in class with your peers in small groups and with your tutor. These exercises build from the exercises you have prepared above, you will get the most value from the class if you have completed those above before coming to class.
+
+In the workshop you will work in groups of 3–4 on the same business problem (Uber surge pricing in Sydney and Melbourne). Your group will work through the in-class exercises.
+
+To help us reflect on how different tools shape analytical thinking, each group will be assigned a different workflow. 
+The goal is to notice how your workflow affects the quality of your reasoning, your confidence, and which Business Scientist skills you use.
+
+**Workflow allocation**
+
+Your tutor will allocate **one** of the following workflows to your group:
+
+* **Search-only**: You can use web search and your pre-class notes, but you must not use GenAI tools.
+* **AI-only** : You must use a GenAI tool of your choice to answer the questions, but your group must not browse the web or consult external sources during the task. In addition, you should not add your own analysis or explanations. Your job is to act like an reporter of the AI’s output:
+  - You may ask the AI clarifying questions (e.g., “define this term,” “give an example,” “rewrite more clearly,” “list assumptions,” “suggest metrics,” “format as a memo”).
+  - You may choose what to include or exclude from your final answers.
+  - If you disagree with the AI, you must resolve it by asking the AI further questions, not by inserting your own reasoning.
+  
+* **Hybrid**: You may use any combination of search, AI, and notes in any way you choose.
+
+At the end of the tutorial, the class will reflect on how different workflows shaped your answers.
 <!-- END INSERT:inclass-header -->
+
+{{< include _questions/question_04.qmd >}}
+
+{{< include _questions/question_05.qmd >}}
 
 {{< include _questions/question_06.qmd >}}
 
 {{< include _questions/question_07.qmd >}}
 
-{{< include _questions/question_08.qmd >}}
 
-{{< include _questions/question_09.qmd >}}
-
-{{< include _questions/question_10.qmd >}}

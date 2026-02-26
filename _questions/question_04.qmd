@@ -1,12 +1,17 @@
 <!-- question-type: prepare -->
-### Exercise 4: Title
+### Exercise 4: Choosing the right question to answer
 
-This is the text for the question, with its accompanying code 
+Your group will choose one research question to guide the rest of your work in the session.
 
-```{r}
-# Example code for the question
-1 + 1
-```
+* Step 1: Propose four candidate research questions.
+
+* Step 2: Score each question from 0–2 on each criterion below (0 = weak, 1 = okay, 2 = strong).
+  - Useful: Would answering it help Uber decide what to do?
+  - Answerable: Could you imagine what you would measure to answer it?
+  - Specific: Is it narrow enough to be answered in a short investigation?
+
+* Step 3: Choose the highest-scoring question and rewrite it to be as clear as possible.
+
 
 <!-- BEGIN PROFILE:r-teaching-guide -->
 ::: {.content-visible when-profile="r-teaching-guide"}
@@ -22,20 +27,41 @@ Teaching Note
 🎯 **Learning Objective** 
 Students should:
 
-- XXXXX
+Evaluate questions using three practical criteria (useful, answerable, specific).
+
+Rewrite a chosen question into a clearer, more decision-relevant form.
 
 ✅   **Core Concepts to Highlight**
 
-List them here
+Research question = the engine of the whole analysis: it determines what data you need and what you can conclude.
 
+Useful (decision relevance): a good question changes what Uber would do next week (monitor, redesign, enforce, communicate).
+
+Answerable (measurable): if you can’t name an outcome you’d measure, it’s not an analytics question yet.
+
+Specific (scope): narrow beats broad—time window, city/area, and a concrete behavior/outcome.
+
+Rewrite skill: most first drafts are vague; improvement comes from tightening nouns (what outcome? what behavior? where/when?).
 
 💬 **Suggested In-Class Prompts** (if needed)
 
-List as needed
+“What part of this question is fuzzy—behavior, outcome, or scope?”
+
+“Rewrite it so a manager could read it once and know what you mean.”
 
 📌 **Common Misunderstandings**
 
-List as needed
+Writing goals instead of questions (“understand what’s happening,” “explore driver behavior”).
+
+Vague verbs with no measurement (“impact,” “influence,” “affect”) without naming what would be measured.
+
+Questions that are too broad (no city/time/area; multiple outcomes; multiple mechanisms).
+
+Scoring “useful” based on what sounds interesting rather than what informs a decision.
+
+Treating “answerable” as “easy” (it’s about measurability, not difficulty).
+
+Rewriting only for wording, not substance (clarity improves when you add outcome/behavior/scope, not just synonyms).
 
 :::
 
@@ -55,11 +81,7 @@ Solution
 
 ::: {.solution-block-body}
 
-Here’s the explanation and code:
-
-```{r}
-print("Hello, world!")
-```
+No solution provided. Depends on what the group comes up with.
 :::
 
 :::

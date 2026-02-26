@@ -1,12 +1,21 @@
 <!-- question-type: prepare -->
-### Exercise 2: Title
+### Exercise 2: Defining the Problem
 
-This is the text for the question, with its accompanying code 
+Imagine you’re part of Uber’s analytics + operations team investigating this in Sydney and Melbourne.
 
-```{r}
-# Example code for the question
-1 + 1
-```
+**Part A** (3–4 sentences): Define the problem for Uber. Your answer must include:
+
+* What’s happening: one sentence describing the suspected behavior in concrete terms.
+* Why it matters: one sentence naming who is affected and what Uber risks (e.g., revenue, trust, retention, regulation).
+* What Uber needs to decide: one sentence stating the decision Uber faces next week (e.g., monitor, redesign surge, enforce rules).
+* How we’d judge success: one sentence naming one measurable indicator that would improve if Uber responds well (e.g., fewer extreme surges, shorter wait times, fewer cancellations, improved rider ratings, stable driver online time).
+
+**Part B** (one sentence): Write one research question to guide analysis.
+Your question should include:
+
+* an outcome (what you will measure),
+* a behavior/exposure (what you think is driving it), and
+* a scope (a location and/or time of day to focus on).
 
 <!-- BEGIN PROFILE:r-teaching-guide -->
 ::: {.content-visible when-profile="r-teaching-guide"}
@@ -22,21 +31,49 @@ Teaching Note
 🎯 **Learning Objective** 
 Students should:
 
-- XXXXX
+- Translate a messy real-world story into a concrete problem definition that names (i) the suspected behavior, (ii) why it matters, (iii) the decision Uber faces, and (iv) a measurable indicator of success.
+
+- Write a research question that is decision-relevant and includes an outcome, an exposure/behavior, and a clear scope (Sydney/Melbourne + time/place detail).
+
+- Recognize the difference between a question that sounds smart and a question that is answerable with data.
 
 ✅   **Core Concepts to Highlight**
 
-List them here
+Problem definition vs research question: problem = what’s at stake + decision; research question = what we will measure to learn something.
 
+Outcome / exposure / scope: the minimal ingredients of an answerable analytics question.
+
+Decision relevance: the question should inform what Uber would do next week (monitor, redesign, enforce).
+
+Measurable indicators: examples that fit this case (surge frequency/intensity, rider wait times, cancellations, driver online minutes).
+
+“Concrete terms” in platform settings: define behaviors as patterns in logs (e.g., clustered log-offs in the same area within a short window).
+
+Correlation vs causation: “increase” language implies comparison; even if not causal, you still need a baseline.
 
 💬 **Suggested In-Class Prompts** (if needed)
 
-List as needed
+Writing a vague goal (“understand what’s going on”) instead of a measurable question.
+
+Confusing success metrics with interventions (e.g., proposing a policy before defining what would improve).
+
+Choosing an outcome that’s too fuzzy or not measurable (“trust,” “fairness”) without a proxy (ratings, complaints, churn).
+
+Stating the behavior in moral language (“cheating/manipulation”) rather than operational language (“clustered log-offs”).
+
+Missing scope (no city/time/area), leading to questions that are too broad to answer.
 
 📌 **Common Misunderstandings**
 
-List as needed
+Writing a vague goal (“understand what’s going on”) instead of a measurable question.
 
+Confusing success metrics with interventions (e.g., proposing a policy before defining what would improve).
+
+Choosing an outcome that’s too fuzzy or not measurable (“trust,” “fairness”) without a proxy (ratings, complaints, churn).
+
+Stating the behavior in moral language (“cheating/manipulation”) rather than operational language (“clustered log-offs”).
+
+Missing scope (no city/time/area), leading to questions that are too broad to answer.
 :::
 
 :::
@@ -55,11 +92,23 @@ Solution
 
 ::: {.solution-block-body}
 
-Here’s the explanation and code:
+This is an example solution, there are many ways one could answer this question.
 
-```{r}
-print("Hello, world!")
-```
+**Part A**
+
+**What’s happening**: In Sydney and Melbourne, groups of drivers may be coordinating short periods of logging off at the same time in the same areas, making supply look artificially low and triggering surge pricing before they log back on to earn higher fares.
+
+**Why it matters**: This can raise prices and wait times for riders in a way that feels unfair, damage trust in the platform, and create reputational or regulatory risk—while also affecting Uber’s relationship with drivers if the company responds too aggressively.
+
+**What Uber needs to decide**: Uber needs to decide whether to treat this as normal strategic behaviour to monitor, or as harmful manipulation that requires an intervention (e.g., changes to surge design, warnings, or enforcement).
+
+**How we’d judge success**: A good response would reduce “spiky” or unusual surge events that appear to be driven by sudden supply drops, while keeping rider wait times stable and maintaining normal driver participation (e.g., driver online time doesn’t fall).
+
+
+**Part B**
+
+In Sydney and Melbourne during peak periods (e.g., weekend nights), do sudden clustered driver log-offs within a local area increase the frequency or intensity of surge pricing
+
 :::
 
 :::

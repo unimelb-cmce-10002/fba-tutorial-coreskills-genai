@@ -1,12 +1,14 @@
 <!-- question-type: inclass -->
-### Exercise 7: Title
+### Exercise 7: Workflow reflection
 
-This is the text for the question, with its accompanying code 
+One of our aims today was to notice how different workflows shape the quality of your work and how much of it you genuinely feel you own.
 
-```{r}
-# Example code for the question
-1 + 1
-```
+Before discussing with other groups, reflect on the four lenses below:
+
+* **Speed**: How quickly did you get to your answer? What helped or slowed you down?
+* **Confidence**: How confident were you in what you wrote? What drove that confidence (or lack of it)?
+* **Defensibility**: If someone challenged your work, would you feel able to defend it verbally in a meeting? 
+* **Ownership**: Did the final output feel like your group’s work?
 
 <!-- BEGIN PROFILE:r-teaching-guide -->
 ::: {.content-visible when-profile="r-teaching-guide"}
@@ -22,21 +24,47 @@ Teaching Note
 🎯 **Learning Objective** 
 Students should:
 
-- XXXXX
+Reflect on how their assigned workflow affected the process and quality of their work, not just the final answer.
+
+Distinguish between feeling confident and being defensible in a business setting.
+
+Notice when work feels “produced” versus when it feels genuinely owned by the group.
 
 ✅   **Core Concepts to Highlight**
 
-List them here
+Speed vs quality trade-off: fast output can come at the cost of shallow reasoning or missed confounds.
 
+Confidence ≠ correctness: confidence can be inflated by fluent writing or a neat structure.
+
+Defensibility: the ability to explain assumptions, evidence, and limits clearly to a skeptical stakeholder.
+
+Ownership: whether the group feels the output reflects their thinking and choices (vs something assembled from elsewhere).
+
+Connection to 8 skills (light touch): workflows can support some skills while quietly weakening others (e.g., Analytical Theory, Creativity & Judgment).
 
 💬 **Suggested In-Class Prompts** (if needed)
 
-List as needed
+What did your workflow make easy to do quickly?
+
+“What did your workflow make hard to do well?”
+
+“If a manager asked ‘why do you believe that?,’ what would you say?”
+
+“Which parts of your output were your ideas vs borrowed structure/language?”
+
+“What would you change about how you used tools to increase defensibility and ownership next time?”
 
 📌 **Common Misunderstandings**
 
-List as needed
+Equating speed with effectiveness (“we finished first, so we did better”).
 
+Treating confidence as evidence of correctness, rather than asking what it’s based on.
+
+Confusing defensibility with “having an opinion”; defensibility requires reasons, assumptions, and (ideally) checks.
+
+Thinking ownership means “we typed it,” rather than “we chose it, understand it, and stand behind it.”
+
+Over-focusing on the tool (“AI vs search”) instead of the underlying workflow (framing, checking, revising, reasoning).
 :::
 
 :::
@@ -55,11 +83,7 @@ Solution
 
 ::: {.solution-block-body}
 
-Here’s the explanation and code:
-
-```{r}
-print("Hello, world!")
-```
+No correct answer for a reflection
 :::
 
 :::
