@@ -130,8 +130,10 @@ Your tutor will allocate **one** of the following workflows to your group:
 
 * **Search-only**: You can use web search and your pre-class notes, but you must not use GenAI tools.
 * **AI-only** : You must use a GenAI tool of your choice to answer the questions, but your group must not browse the web or consult external sources during the task. In addition, you should not add your own analysis or explanations. Your job is to act like an reporter of the AI’s output:
+  - You may copy/paste and format the AI's output, but you must not change the substance.
+(If something is wrong/unclear, fix it by asking the AI to revise, not by rewriting it yourself.)
   - You may ask the AI clarifying questions (e.g., “define this term,” “give an example,” “rewrite more clearly,” “list assumptions,” “suggest metrics,” “format as a memo”).
-  - You may choose what to include or exclude from your final answers.
+  - If you need a judgment call, ask the AI to make it and explain its reasons.
   - If you disagree with the AI, you must resolve it by asking the AI further questions, not by inserting your own reasoning.
   
 * **Hybrid**: You may use any combination of search, AI, and notes in any way you choose.
@@ -160,43 +162,4 @@ Before discussing with other groups, reflect on the four lenses below:
 * **Ownership**: Did the final output feel like your group’s work?
 
 *Write your answer here*
-
-### Exercise 8: Title
-
-This is the text for the question, with its accompanying code 
-
-```{r}
-# Example code for the question
-1 + 1
-```
-
-```{r}
-# Write your answer here
-```
-
-### Exercise 9: Title
-
-This is the text for the question, with its accompanying code 
-
-```{r}
-# Example code for the question
-1 + 1
-```
-
-```{r}
-# Write your answer here
-```
-
-### Exercise 10: Title
-
-This is the text for the question, with its accompanying code 
-
-```{r}
-# Example code for the question
-1 + 1
-```
-
-```{r}
-# Write your answer here
-```
 

@@ -83,7 +83,37 @@ Solution
 
 ::: {.solution-block-body}
 
-No correct answer for a reflection
+Here's some examples of what you might experience in the conversation. Ultimately there is no right answer:
+
+**Sample reflection: Search-only**
+
+Speed: We were slower to get started because we had to read and agree on what mattered, but once we had a direction our answers became clearer.
+
+Confidence: Medium–high. We felt better when we could point to something we read, but we weren’t sure we’d found the “right” sources.
+
+Defensibility: Fairly defensible—we can explain our logic and show where claims came from, though we might miss some angles.
+
+Ownership: High. The output feels like ours because we had to decide what to focus on and how to phrase it ourselves.
+
+**Sample reflection: AI-only**
+
+Speed: Very fast—we got full answers quickly and the writing sounded professional.
+
+Confidence: Initially high because the output was fluent, then lower once we noticed we couldn’t verify claims or justify details.
+
+Defensibility: Weak. If challenged in a meeting, we’d mostly be repeating what the AI said rather than explaining why it’s true.
+
+Ownership: Low. The output doesn’t feel like our work—it feels like we assembled text, and some parts don’t match what we actually understand.
+
+**Sample reflection: Hybrid**
+
+Speed: Moderate—we moved quickly when we used AI for structure, but slowed down when we tried to check and reconcile different inputs.
+
+Confidence: Medium. Using multiple sources helped, but sometimes the AI and search results pushed us in different directions.
+
+Defensibility: Better than AI-only. We can defend our main points because we checked a couple of key claims and made our assumptions explicit, but some details are still shaky.
+
+Ownership: Mixed. The overall logic feels like ours, but some phrasing and a few claims feel “borrowed,” especially where we leaned on AI-generated text.
 :::
 
 :::

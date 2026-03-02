@@ -62,6 +62,26 @@ Picking two highly similar outcomes that don’t add information (e.g., two vers
 
 Forgetting that outcomes should be interpretable to a decision-maker (metrics need a clear business meaning).
 
+**Extra Hints:**
+
+**Part A**:
+
+Mentions time ordering (log-off → surge)
+
+Mentions local area/zone (not city-wide)
+
+Includes a baseline comparison (“similar times/areas without clustered log-offs”)
+
+Stays as a “first check” (plot/compare), not a full-blown model
+
+**Part B: **
+
+At least one pricing-related metric (because the RQ is about surge)
+
+The second metric should capture platform health / rider experience (ETA, cancellations)
+
+Reasons should connect clearly to the RQ (not generic “it’s important”)
+
 :::
 
 :::
@@ -80,7 +100,40 @@ Solution
 
 ::: {.solution-block-body}
 
-No solution provided. Depends on what the group's direction chosen in previous exercise.
+Carrying the same example RQ over from Q5:
+
+> In Sydney and Melbourne during peak periods (e.g., weekend nights), do clustered driver log-offs within a local area increase the frequency or intensity of surge pricing, relative to similar times/areas without clustered log-offs?
+
+1) First pattern to look for in the data
+
+A strong first pattern is a simple, concrete comparison that links the exposure to the outcome with timing and location.
+
+Example answer:
+
+Look for short windows (e.g., 5–10 minutes) where many drivers go offline in the same zone, and check whether a surge spike occurs in that zone shortly afterward (e.g., within the next 10–15 minutes), compared to similar times/zones without a clustered log-off.
+
+
+2) Two outcome indicators to track (with reasons)
+
+Two good indicators often combine pricing + service quality.
+
+Example answers:
+
+Surge intensity or frequency (e.g., average surge multiplier, % of minutes/trips with surge in a zone):
+Directly measures the outcome in the research question and captures how big/common surge events are.
+
+Rider wait time / ETA (e.g., average pickup ETA, % rides with ETA above a threshold):
+Tells whether surge corresponds to a real shortage affecting riders, and helps distinguish “price spike only” from meaningful service disruption.
+
+Other acceptable alternatives (if justified):
+
+* Cancellation rate (rider/driver) — indicates instability and friction during suspected events
+
+* Completed trips per hour per zone — shows whether matching/throughput changes during suspected events
+
+* Driver online minutes — helps check whether interventions/conditions harm participation (more for later, but can be justified)
+
+
 
 :::
 

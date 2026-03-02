@@ -74,6 +74,34 @@ Writing “patterns” that are really just restating the hypothesis (“we’d 
 Confusing confounds with minor caveats (“data might be messy”) rather than real alternative explanations (events, weather, outages, shift changes).
 
 Treating one signal as definitive without thinking about baselines and comparisons (“surge happened, therefore coordination”).
+
+**Extra Hints**: 
+
+A strong Exercise 5 answer usually has:
+
+* At least 1 supply field + 1 demand field + 1 pricing field
+* Time + location explicitly (not implied)
+* Signals with sequencing (before/after)
+* Confounds that plausibly mimic the signals
+
+**Part A:**
+What to look for
+
+- Do they include timestamps and location granularity?
+- Do they have both supply (drivers) and demand (requests) measures?
+- Do they include pricing (surge) and at least one experience metric (ETA/cancellations)?
+- Do they include at least one context confound (events/weather/outages)?
+
+**Part B:**
+
+Signals should reference time ordering (log-off → surge), locality (same zone), and ideally contrast (not explained by demand).
+
+**Part C:**
+
+Confounds should be real alternative stories, not “data might be inaccurate.”
+
+Good confounds map cleanly onto the signals (i.e., they could produce the same pattern).
+
 :::
 
 :::
@@ -92,7 +120,55 @@ Solution
 
 ::: {.solution-block-body}
 
-No solution provided. Depends on what the group's direction chosen in previous exercise.
+There are **multiple ways** one could tackle this question. Here we provide one example.
+
+Suppose the research question is:
+
+> In Sydney and Melbourne during peak periods (e.g., weekend nights), do clustered driver log-offs within a local area increase the frequency or intensity of surge pricing, relative to similar times/areas without clustered log-offs?
+
+Note that this question features the following structure:
+
+(Outcome = surge frequency/intensity; Exposure = clustered log-offs; Scope = Sydney/Melbourne + peak periods + local area.)
+
+**Part A: Must-have data** (5–7 fields) — with why each matters
+
+A strong list usually includes time + location + supply + demand + pricing + rider experience + context.
+
+* Driver online/offline status with timestamps (by driver)
+  - Lets us detect sudden drops in supply and whether they are clustered in time.
+
+* Driver location / operating zone at time of log-off (geofence/zone ID)
+  - Lets us see whether log-offs are concentrated in the same area rather than spread across the city.
+
+* Surge multiplier (or price adjustment) by zone over time
+  - Measures the outcome directly: when and where surge appears, and how large it is.
+
+* Trip requests (demand) by zone over time
+  - Helps separate a surge caused by real demand spikes from a surge driven by supply manipulation.
+
+* Rider wait times / ETA (or pickup times) by zone
+  - Captures rider experience and whether any surge coincides with a real shortage in service.
+
+* Cancellations (rider and driver) by zone/time
+  - A surge episode might lead to more cancellations; also helps indicate instability in matching.
+
+* Context controls: weather + major events + app outage logs
+  - Key confounds: rain/events create real demand spikes; outages can mimic coordinated log-offs.
+
+
+**Part B: Signals** (3 patterns we’d expect if coordination is happening)
+
+* Clustered supply drop: Many drivers go offline within a short window (e.g., 5–10 minutes) in the same zone.
+* Surge follows supply drop: A surge multiplier increase occurs shortly after the clustered log-off (in that zone), even when demand is not unusually high.
+* Re-entry timing: Drivers return online after surge rises (or trip acceptance spikes right after surge), consistent with attempting to benefit from the higher fare.
+
+
+
+**Part C: Confounds** (2 alternative explanations that mimic the same pattern)
+
+* Real demand shock: A concert ends / rain begins → demand spikes; drivers appear “insufficient,” surge rises even without coordination.
+
+* Non-strategic supply shock: App outages, connectivity issues, traffic disruptions, or normal shift changes create a sudden supply drop and surge.
 
 
 :::
