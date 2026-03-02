@@ -52,31 +52,31 @@ Link to the 8 skills: show how this task naturally activates multiple skills, bu
 
 💬 **Suggested In-Class Prompts** (if needed)
 
-Institutional detail drives measurement: you can’t analyze “surge manipulation” until you know how surge is computed (zones, refresh rate, inputs).
+“What’s one institutional detail you must know before you can even define the behavior?”
 
-Data discovery as feasibility: good questions fail if you can’t get the right logs at the right granularity.
+“What’s the minimum dataset you’d need to do a first-pass check?”
 
-First analysis = a simple comparison: start with a clear “pattern to look for” (supply drop → surge spike) rather than complex models.
+“What is the very first pattern/comparison you’d look for in the data?”
 
-Analytical theory (what can go wrong): confounds (events/weather), outages, normal shifts, location mismeasurement, selection.
+“Name two plausible alternative explanations that could fool you.”
 
-Communication is part of analysis: decision-makers need a concise story + one or two key exhibits + clear uncertainty/limits.
+“If you had 60 seconds with an ops manager, what would your one chart be?”
 
-Link to the 8 skills: show how this task naturally activates multiple skills, but some matter more at the start.
+“Which two skills are ‘binding constraints’ here, and why?”
 
 📌 **Common Misunderstandings**
 
-Institutional detail drives measurement: you can’t analyze “surge manipulation” until you know how surge is computed (zones, refresh rate, inputs).
+Jumping straight to solutions (“ban drivers / change the algorithm”) without defining what’s happening or how to detect it.
 
-Data discovery as feasibility: good questions fail if you can’t get the right logs at the right granularity.
+Asking for data that is too vague (“all Uber data”) or missing crucial granularity (no timestamps/location).
 
-First analysis = a simple comparison: start with a clear “pattern to look for” (supply drop → surge spike) rather than complex models.
+Proposing complicated methods before a simple first-pass check.
 
-Analytical theory (what can go wrong): confounds (events/weather), outages, normal shifts, location mismeasurement, selection.
+Treating “surge increased” as proof of manipulation without considering confounds (events, rain, outages, shift changes).
 
-Communication is part of analysis: decision-makers need a concise story + one or two key exhibits + clear uncertainty/limits.
+Ignoring how results will be communicated (no simple metric, no clear exhibit, no uncertainty).
 
-Link to the 8 skills: show how this task naturally activates multiple skills, but some matter more at the start.
+Picking two skills with generic justification (“everything matters”) instead of naming what’s most binding early (often Data Discovery + Analytical Theory, or Institutional Detail + Creativity & Judgment depending on the group’s framing).
 :::
 
 :::
