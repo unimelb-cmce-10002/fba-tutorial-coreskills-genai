@@ -53,15 +53,17 @@ Correlation vs causation: “increase” language implies comparison; even if no
 
 💬 **Suggested In-Class Prompts** (if needed)
 
-Writing a vague goal (“understand what’s going on”) instead of a measurable question.
+“What exactly would this behavior look like in Uber’s data logs?”
 
-Confusing success metrics with interventions (e.g., proposing a policy before defining what would improve).
+“Who is harmed if this is happening? Who benefits?”
 
-Choosing an outcome that’s too fuzzy or not measurable (“trust,” “fairness”) without a proxy (ratings, complaints, churn).
+“What decision does Uber actually control next week?”
 
-Stating the behavior in moral language (“cheating/manipulation”) rather than operational language (“clustered log-offs”).
+“Name one number you’d want on a dashboard to tell if this is getting worse.”
 
-Missing scope (no city/time/area), leading to questions that are too broad to answer.
+“Your research question: what is the thing you measure and what is the thing you think drives it?”
+
+“Is your question narrow enough to answer in a week, or is it a whole thesis?”
 
 📌 **Common Misunderstandings**
 
