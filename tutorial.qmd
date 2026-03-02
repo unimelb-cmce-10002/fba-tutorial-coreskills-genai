@@ -37,7 +37,7 @@ The goal is to notice how your workflow affects the quality of your reasoning, y
 Your tutor will allocate **one** of the following workflows to your group:
 
 * **Search-only**: You can use web search and your pre-class notes, but you must not use GenAI tools.
-* **AI-only** : You must use a GenAI tool of your choice to answer the questions, but your group must not browse the web or consult external sources during the task. In addition, you should not add your own analysis or explanations. Your job is to act like an reporter of the AI’s output:
+* **AI-only** : You must use a GenAI tool of your choice to answer the questions, but your group must not browse the web or consult external sources during the task. In addition, you should not add your own analysis or explanations. Your job is to act like a reporter of the AI’s output:
   - You may copy/paste and format the AI's output, but you must not change the substance.
 (If something is wrong/unclear, fix it by asking the AI to revise, not by rewriting it yourself.)
   - You may ask the AI clarifying questions (e.g., “define this term,” “give an example,” “rewrite more clearly,” “list assumptions,” “suggest metrics,” “format as a memo”).
